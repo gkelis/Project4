@@ -1,0 +1,37 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package beans;
+
+/**
+ *
+ * @author FoG
+ */
+
+public class Country {
+
+	private int countryId;
+	
+	private String countryName;
+	
+	Country(int countryId, String countryName)
+	{
+		this.countryId = countryId;
+		this.countryName = countryName;
+	}
+	
+	public int getCountryId() {
+		return countryId;
+	}
+	public void setCountryId(int countryId) {
+		this.countryId = countryId;
+	}
+	public String getCountryName() {
+		return countryName;
+	}
+	public void setCountryName(String countryName) {
+		this.countryName = countryName;
+	}
+	
+}
